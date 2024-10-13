@@ -1,13 +1,9 @@
-import { useState } from 'react'
-import './style.css'
-
+import { useState } from 'react';
+import './style.css';
 function App() {
-
-  return (
-   <>
+  console.log(window.globalCount++);
+  return <>
     <h1>Baklava TD Web Game</h1> 
-   </> 
-  )
+   </>;
 }
-
-export default App
+export default App;
